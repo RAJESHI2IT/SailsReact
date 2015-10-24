@@ -1,0 +1,76 @@
+@import 'color';
+body {
+    background: $gray-color;
+}
+
+nav {
+    margin-bottom: 10px;
+    background-color: $yellow;
+    box-shadow: $transparent-bg;
+    color: $black;
+    ul {
+        a {
+            color: $black;
+        }
+    }
+    .brand-logo {
+        color: $black;
+        padding-left: 10px;
+    }
+}
+
+.btn {
+    &.btn-primery {
+        background-color: $green;
+        &:hover {
+            background-color: $green;
+        }
+    }
+    &.btn-primery-y {
+        background-color: $yellow;
+        padding: 0 10px;
+        color: $black;
+        &:hover {
+            background-color: $yellow;
+        }
+    }
+}
+
+input[type=text]:focus:not([readonly]),
+input[type=password]:focus:not([readonly]),
+input[type=email]:focus:not([readonly]),
+input[type=url]:focus:not([readonly]),
+input[type=time]:focus:not([readonly]),
+input[type=date]:focus:not([readonly]),
+input[type=datetime-local]:focus:not([readonly]),
+input[type=tel]:focus:not([readonly]),
+input[type=number]:focus:not([readonly]),
+input[type=search]:focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid $green;
+    box-shadow: 0 1px 0 0 $green;
+}
+
+.auth-form {
+    background-color: $white;
+    padding: 10px;
+    h1 {
+        margin-top: -10px;
+        font-size: 25px;
+        margin-bottom: 20px;
+        background-color: $yellow;
+        padding: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+}
+
+.m-t-50{
+	margin-top: 50px;
+}
+
+.m-t-20{
+	margin-top: 20px;
+}

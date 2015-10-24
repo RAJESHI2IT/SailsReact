@@ -1,0 +1,22 @@
+{
+  "name": "SailsReact",
+  "version": "0.0.0",
+  "homepage": "https://github.com/RAJESHI2IT/SailsReact",
+  "authors": [
+    "RAJESHI2IT <rajesh.p.r@ideas2it.com>"
+  ],
+  "main": "app.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "~0.97.1",
+    "fontawesome": "~4.4.0",
+    "malihu-custom-scrollbar-plugin": "~3.1.0"
+  }
+}
